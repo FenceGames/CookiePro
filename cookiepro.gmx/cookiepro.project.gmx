@@ -21,7 +21,11 @@
     <object>objects\obj_Hero</object>
     <object>objects\obj_ground</object>
     <object>objects\obj_ground2</object>
+    <object>objects\obj_laser</object>
   </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_level1</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
