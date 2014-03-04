@@ -20,12 +20,20 @@
     <background>background\bcg_space</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\Keepin_Score.gml</script>
+  </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt_default</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_cookie</object>
     <object>objects\obj_minion</object>
     <object>objects\obj_Hero</object>
     <object>objects\obj_laser</object>
     <object>objects\par_enemy</object>
+    <object>objects\obj_miniongenerator</object>
+    <object>objects\obj_score</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level1</room>
