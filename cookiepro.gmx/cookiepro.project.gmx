@@ -8,6 +8,7 @@
     <sound>sound\snd_backgound</sound>
     <sound>sound\snd_laser1</sound>
     <sound>sound\snd_laser2</sound>
+    <sound>sound\snd_background2</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_cookie</sprite>
