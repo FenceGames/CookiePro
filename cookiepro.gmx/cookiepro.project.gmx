@@ -10,8 +10,6 @@
     <sprite>sprites\spr_minion</sprite>
     <sprite>sprites\spr_laser</sprite>
     <sprite>sprites\spr_Hero</sprite>
-    <sprite>sprites\spr_ground</sprite>
-    <sprite>sprites\spr_ground2</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -19,8 +17,6 @@
     <object>objects\obj_cookie</object>
     <object>objects\obj_minion</object>
     <object>objects\obj_Hero</object>
-    <object>objects\obj_ground</object>
-    <object>objects\obj_ground2</object>
     <object>objects\obj_laser</object>
   </objects>
   <rooms name="rooms">
