@@ -50,6 +50,8 @@
             <kind>1</kind>
             <string>instance_create(x, y-16, obj_laser);
 instance_create(x, y+16, obj_laser);
+
+audio_play_sound(snd_laser2, 20, false);
 </string>
           </argument>
         </arguments>
