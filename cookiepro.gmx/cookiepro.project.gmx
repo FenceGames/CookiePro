@@ -18,6 +18,7 @@
     <object>objects\obj_minion</object>
     <object>objects\obj_Hero</object>
     <object>objects\obj_laser</object>
+    <object>objects\par_enemy</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level1</room>
