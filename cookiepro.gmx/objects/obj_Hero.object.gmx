@@ -78,24 +78,41 @@ audio_play_sound(snd_laser2, 20, false);
 
 Move_Up = keyboard_check_direct(vk_up)
 Move_Down = keyboard_check_direct(vk_down)
-
+Move_Front = keyboard_check_direct(vk_right)
+Move_Back = keyboard_check_direct(vk_left)
 // Moving
 
 if (Move_Up)
 {
-  vspeed = -9;
+    vspeed = -9;
 }
 
 if (Move_Down)
 {
-  vspeed = 9;
+    vspeed = 9;
 } 
 
+if (Move_Front)
+{
+    hspeed = 9;
+}
 
-// Room Height Limits
+if (Move_Back)
+{
+    hspeed = -9;
+}
+
+// Room Height &amp; Width Limits
 
 y = min(y,room_height-25);
 y = max(y,25);
+x = max(x,25);
+
+if place_meeting(x+hspeed, y, obj_border)
+{
+    if (!place_meeting(x+sign(hspeed), y, obj_border)) x += sign(hspeed)
+    hspeed = 0;
+}
 
 // Enemy Collision
 
