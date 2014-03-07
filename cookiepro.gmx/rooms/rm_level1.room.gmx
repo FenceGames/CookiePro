@@ -10,7 +10,9 @@
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code>audio_play_music(snd_background2, true)</code>
+  <code>audio_play_music(snd_background3, true)
+
+if (keyboard_check_pressed(vk_control)) game_restart();</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <makerSettings>
@@ -54,6 +56,7 @@
     <instance objName="obj_score" x="416" y="32" name="inst_B53AA719" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_minion" x="640" y="224" name="inst_7C14D202" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_border" x="224" y="192" name="inst_C5B660FF" locked="0" code="" scaleX="0.899999976158142" scaleY="15.2187995910645" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cookie" x="672" y="160" name="inst_FA358713" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

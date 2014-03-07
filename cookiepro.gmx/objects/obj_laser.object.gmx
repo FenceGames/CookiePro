@@ -57,6 +57,8 @@ if (hit != noone)
     hit.hp -= 1;
     instance_destroy();
 }
+
+
 </string>
           </argument>
         </arguments>
