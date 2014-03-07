@@ -22,6 +22,7 @@
     <sprite>sprites\spr_enemybullet</sprite>
     <sprite>sprites\spr_minion2</sprite>
     <sprite>sprites\spr_minion3</sprite>
+    <sprite>sprites\spr_start</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bcg_space</background>
@@ -45,8 +46,10 @@
     <object>objects\obj_enemybullet</object>
     <object>objects\obj_minion2</object>
     <object>objects\obj_minion3</object>
+    <object>objects\obj_start</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_startmenu</room>
     <room>rooms\rm_level1</room>
   </rooms>
   <help>
