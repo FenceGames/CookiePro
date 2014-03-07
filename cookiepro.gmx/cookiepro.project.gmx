@@ -17,6 +17,7 @@
     <sprite>sprites\spr_Hero</sprite>
     <sprite>sprites\spr_border</sprite>
     <sprite>sprites\spr_enemybullet</sprite>
+    <sprite>sprites\spr_minion2</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bcg_space</background>
