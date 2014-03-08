@@ -27,7 +27,9 @@
   <backgrounds name="background">
     <background>background\bcg_space</background>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\path_minion</path>
+  </paths>
   <scripts name="scripts">
     <script>scripts\Keepin_Score.gml</script>
   </scripts>
