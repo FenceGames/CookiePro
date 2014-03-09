@@ -51,6 +51,7 @@
     <object>objects\obj_minion3</object>
     <object>objects\obj_start</object>
     <object>objects\obj_minion2generator</object>
+    <object>objects\obj_minion3generator</object>
   </objects>
   <timelines name="timelines"/>
   <rooms name="rooms">
