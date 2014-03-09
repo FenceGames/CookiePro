@@ -29,6 +29,7 @@
   </backgrounds>
   <paths name="paths">
     <path>paths\path_minion</path>
+    <path>paths\path_2</path>
   </paths>
   <scripts name="scripts">
     <script>scripts\Keepin_Score.gml</script>
@@ -49,7 +50,9 @@
     <object>objects\obj_minion2</object>
     <object>objects\obj_minion3</object>
     <object>objects\obj_start</object>
+    <object>objects\obj_minion2generator</object>
   </objects>
+  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\rm_startmenu</room>
     <room>rooms\rm_level1</room>
