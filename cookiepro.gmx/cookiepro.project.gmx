@@ -52,6 +52,7 @@
     <object>objects\obj_start</object>
     <object>objects\obj_minion2generator</object>
   </objects>
+  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\rm_startmenu</room>
     <room>rooms\rm_level1</room>
