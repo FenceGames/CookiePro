@@ -50,10 +50,8 @@
     <object>objects\obj_minion2</object>
     <object>objects\obj_minion3</object>
     <object>objects\obj_start</object>
-    <object>objects\obj_minion2generator</object>
-    <object>objects\obj_minion3generator</object>
+    <object>objects\obj_cookiegenerator</object>
   </objects>
-  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\rm_startmenu</room>
     <room>rooms\rm_level1</room>

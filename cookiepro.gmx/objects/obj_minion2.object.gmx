@@ -25,11 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>// hspeed = -10
+            <string> hspeed = -10
 
 hp = 2;
 
-path_start(path_2, 8, 3, true)  
+//path_start(path_2, 8, 3, true)  
 </string>
           </argument>
         </arguments>
@@ -101,6 +101,14 @@ hit = instance_place(x, y, obj_Hero)
 if (hit != noone)
 {
     hit.hp -= 1;
+    instance_destroy();
+}
+
+// Taking off points
+
+if (x &lt;= 0) 
+{
+    score -=1;
     instance_destroy();
 }
 </string>
