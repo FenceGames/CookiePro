@@ -27,16 +27,25 @@
             <kind>1</kind>
             <string>// Minion Creation
 
-if (score &lt; 5)
+if (score &lt; 25)
 {
     instance_create(x, y,obj_minion)
 }
+
 // Minion2 Creation
 
-if (score &gt;= 5)
+if (score &gt;= 25 and score &lt; 50)
 {
     instance_create(x, y, obj_minion2)
 }
+
+// Minion3 Creation
+
+if (score &gt;= 50)
+{
+    instance_create(x, y, obj_minion3)
+}
+
 
 
 </string>
